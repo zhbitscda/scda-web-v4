@@ -1,0 +1,36 @@
+[ 2016-01-21T19:55:40+08:00 ] 127.0.0.1 /SCDA/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-01-21T19:55:40+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000543s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-01-21T19:55:40+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+ERR: 非法操作:responsive-nav.css
+

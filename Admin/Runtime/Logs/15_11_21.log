@@ -1,0 +1,177 @@
+[ 2015-11-21T10:54:05+08:00 ] 127.0.0.1 /SCDA/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+
+[ 2015-11-21T10:54:05+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000864s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2015-11-21T10:54:05+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-11-21T11:02:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.086520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.014082s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2015-11-21T11:02:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.046792s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000743s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000768s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-11-21T11:02:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-11-21T11:02:33+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.003477s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000483s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011273s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-11-21T11:02:33+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 非法操作:responsive-nav.css
+

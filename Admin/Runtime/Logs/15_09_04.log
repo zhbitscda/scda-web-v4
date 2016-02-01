@@ -1,0 +1,9 @@
+[ 2015-09-04T00:10:50+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+ERR: 非法操作:responsive-nav.css
+

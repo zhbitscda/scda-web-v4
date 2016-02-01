@@ -1,0 +1,3279 @@
+[ 2015-09-24T22:41:41+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025152s ]
+
+[ 2015-09-24T22:41:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 70 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 71 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 72 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001146s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2015-09-24T22:41:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:41:50+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.057442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.001100s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-09-24T22:41:51+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.075682s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000578s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000524s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-09-24T22:41:51+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:41:55+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005674s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000524s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2015-09-24T22:41:55+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:41:58+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005611s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000524s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002385s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-09-24T22:41:58+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:42:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007032s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-09-24T22:42:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:45:17+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006085s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000847s ]
+
+[ 2015-09-24T22:45:22+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005717s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000671s ]
+
+[ 2015-09-24T22:46:53+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005343s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011897s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-09-24T22:46:53+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:48:18+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007186s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-09-24T22:48:18+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:48:19+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005624s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2015-09-24T22:48:19+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:48:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005245s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000667s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002755s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-09-24T22:48:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:48:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006046s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-09-24T22:48:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:49:06+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006598s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000700s ]
+
+[ 2015-09-24T22:49:27+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-09-24T22:49:27+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 70 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 71 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 72 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008821s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000542s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2015-09-24T22:49:27+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:49:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2015-09-24T22:49:34+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005568s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-09-24T22:49:34+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:49:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005063s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000624s ]
+
+[ 2015-09-24T22:49:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005508s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-09-24T22:49:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:50:04+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006413s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000656s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2015-09-24T22:50:04+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000725s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:50:08+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005147s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000634s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+
+[ 2015-09-24T22:52:45+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006691s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012575s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000988s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-09-24T22:52:45+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:53:01+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006155s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000899s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-09-24T22:53:01+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:53:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006247s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-09-24T22:53:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:53:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005583s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2015-09-24T22:53:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:56:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006011s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013045s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000615s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-09-24T22:56:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:56:37+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006396s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-09-24T22:56:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:56:46+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+ERR: 非法操作:index
+
+[ 2015-09-24T22:58:50+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006462s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000784s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-09-24T22:58:50+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:59:02+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+
+[ 2015-09-24T22:59:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 70 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 71 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 72 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011993s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-09-24T22:59:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T22:59:19+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.000472s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000656s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2015-09-24T22:59:21+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005712s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000641s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000748s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-09-24T22:59:21+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:00:30+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007892s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000665s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000862s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2015-09-24T23:00:30+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:00:33+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005529s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001107s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-09-24T23:00:33+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:00:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.008161s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.001058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-09-24T23:00:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:00:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005309s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-09-24T23:00:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:01:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007088s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000566s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-09-24T23:01:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:01:04+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007667s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-09-24T23:01:04+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:01:17+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007231s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-09-24T23:01:17+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:01:43+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002738s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002839s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-09-24T23:01:43+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005469s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000862s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013498s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-09-24T23:02:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006019s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000954s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-09-24T23:02:16+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007466s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000866s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2015-09-24T23:02:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007789s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%想%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000637s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002788s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-09-24T23:02:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:44+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007320s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000624s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2015-09-24T23:02:44+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:02:58+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007146s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000644s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-09-24T23:02:58+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:03:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005417s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000927s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2015-09-24T23:03:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:03:12+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005547s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000600s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013646s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000708s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2015-09-24T23:03:12+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:05:28+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007602s ]
+
+[ 2015-09-24T23:05:33+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006609s ]
+
+[ 2015-09-24T23:06:02+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-09-24T23:06:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 70 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 71 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 72 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010083s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-09-24T23:06:02+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:06:10+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.005813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-09-24T23:06:11+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006405s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 5 行.
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-09-24T23:06:11+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:06:23+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005663s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 5 行.
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-09-24T23:06:23+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:06:34+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005659s ]
+NOTIC: [4096] Object of class Model could not be converted to string F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 5 行.
+
+[ 2015-09-24T23:12:41+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005820s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+
+[ 2015-09-24T23:12:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000814s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-09-24T23:12:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:12:58+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007481s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001117s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001086s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2015-09-24T23:12:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005929s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000736s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003693s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-09-24T23:12:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:19:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006691s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-09-24T23:19:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:20:23+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006749s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000680s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2015-09-24T23:20:24+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:20:27+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006985s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016498s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-09-24T23:20:27+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:22:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006701s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2015-09-24T23:22:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:22:39+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005545s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012771s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000759s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2015-09-24T23:22:39+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:23:36+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005997s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development2` LIKE '%%' )  [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014085s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-09-24T23:23:36+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:23:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007151s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development2` LIKE '%%' )  [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019551s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2015-09-24T23:23:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:24:22+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005549s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000577s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2015-09-24T23:24:22+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:24:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005880s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ch%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2015-09-24T23:24:25+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:24:29+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006867s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%ss%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000643s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2015-09-24T23:24:29+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:28:34+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006570s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000780s ]
+NOTIC: [8] Use of undefined constant development1 - assumed 'development1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT `development1` FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' ) LIMIT 1   [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000713s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003913s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-09-24T23:28:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:28:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005975s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant development1 - assumed 'development1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT `development1` FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' ) LIMIT 1   [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020449s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-09-24T23:28:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:28:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006954s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant development1 - assumed 'development1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT `development1` FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000762s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2015-09-24T23:28:42+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:28:54+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005751s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000735s ]
+NOTIC: [8] Use of undefined constant development1 - assumed 'development1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT `development1` FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' ) LIMIT 1   [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003216s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-09-24T23:28:54+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:32:08+08:00 ] 127.0.0.1 /SCDA/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-09-24T23:32:08+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 50 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\SCDA\Admin\Runtime\Cache\27e9c4fddbdacc085a84cce69c1ba206.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000682s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-09-24T23:32:08+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:32:17+08:00 ] 127.0.0.1 /SCDA/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `username` = 'scda' ) AND ( `password` = 'SCDAnet061122' ) LIMIT 1   [ RunTime:0.000723s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\SCDA\Admin\Lib\Action\LoginAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000677s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003650s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-09-24T23:32:18+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005768s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000740s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-09-24T23:32:18+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:32:28+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.012257s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000792s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000749s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-09-24T23:32:28+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:32:53+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006048s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000713s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-09-24T23:32:53+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:32:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007661s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2015-09-24T23:32:59+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:37:31+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005896s ]
+NOTIC: [8] Use of undefined constant dept1 - assumed 'dept1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant dept2 - assumed 'dept2' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%dept1%' ) AND ( `development2` LIKE '%dept2%' )  [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001156s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-09-24T23:37:31+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:37:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005590s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000762s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2015-09-24T23:37:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:37:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005894s ]
+NOTIC: [8] Use of undefined constant dept1 - assumed 'dept1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant dept2 - assumed 'dept2' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%dept1%' ) AND ( `development2` LIKE '%dept2%' )  [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013929s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-09-24T23:37:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:37:39+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006393s ]
+NOTIC: [8] Use of undefined constant dept1 - assumed 'dept1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant dept2 - assumed 'dept2' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%dept1%' ) AND ( `development2` LIKE '%dept2%' )  [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017451s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006143s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-09-24T23:37:39+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:01+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006040s ]
+NOTIC: [8] Use of undefined constant dept1 - assumed 'dept1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant dept2 - assumed 'dept2' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%dept1%' ) AND ( `development2` LIKE '%dept2%' )  [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2015-09-24T23:38:01+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:05+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001731s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006320s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000607s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003349s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2015-09-24T23:38:05+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:06+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.008585s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001071s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002909s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-09-24T23:38:06+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:11+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006571s ]
+NOTIC: [8] Use of undefined constant dept1 - assumed 'dept1' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant dept2 - assumed 'dept2' F:\wamp\www\SCDA\Admin\Lib\Action\AdminAction.class.php 第 16 行.
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%dept1%' ) AND ( `development2` LIKE '%dept2%' )  [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017418s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000682s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000736s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-09-24T23:38:12+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006689s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%传媒%' )  [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000719s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-09-24T23:38:35+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007024s ]
+SQL: SELECT * FROM `hd_student`  [ RunTime:0.000650s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_student` LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003195s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-09-24T23:38:38+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:38:44+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006348s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%传媒%' )  [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000960s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000838s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-09-24T23:38:44+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:39:24+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006276s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-09-24T23:39:24+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:39:52+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005823s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003384s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001035s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-09-24T23:39:52+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007660s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%宣传%' )  [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000927s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-09-24T23:40:03+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:06+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005256s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2015-09-24T23:40:06+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:07+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005672s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013314s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2015-09-24T23:40:07+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:13+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005936s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000928s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-09-24T23:40:13+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006214s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000739s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-09-24T23:40:14+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:21+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006166s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%网络%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000878s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003697s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001338s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2015-09-24T23:40:21+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:40:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006286s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000996s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001079s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-09-24T23:40:41+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:24+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006924s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-09-24T23:41:24+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:31+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.007621s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%传媒%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012820s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-09-24T23:41:31+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002534s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.005809s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-09-24T23:41:32+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:37+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006019s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%网络%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013138s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000635s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-09-24T23:41:37+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:39+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006829s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+NOTIC: [8] Undefined index: id F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000792s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000856s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2015-09-24T23:41:40+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+ERR: 非法操作:responsive-nav.css
+
+[ 2015-09-24T23:41:48+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/soso
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `hd_student` [ RunTime:0.006686s ]
+SQL: SELECT * FROM `hd_student` WHERE ( `development1` LIKE '%网络%' ) AND ( `development2` LIKE '%%' )  [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: meeting F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 102 行.
+NOTIC: [8] Undefined variable: sum F:\wamp\www\SCDA\Admin\Runtime\Cache\452b9d0b59a67b87b47e419eddde234d.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2015-09-24T23:41:48+08:00 ] 127.0.0.1 /SCDA/admin.php/Admin/responsive-nav.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+ERR: 非法操作:responsive-nav.css
+
