@@ -30,7 +30,8 @@ class IndexAction extends Action {
     	$this->display();
     }
     public function form(){
-    	$this->display();
+        $this->error('抱歉,报名已结束,欢迎继续关注职协');
+    	// $this->display();
     }
     public function scda(){
     	$this->display();
