@@ -25,9 +25,9 @@
 	    	</div>
             <div class="cssmenu">
             	<ul>
-		   			<li class="active"><a href="/SCDA/index.php/Index/index">首页</a></li>
-		    		<li><a href="/SCDA/index.php/Index/scda">关于我们</a></li>
-		         	<li class="has-sub"><a href="/SCDA/index.php/Index/form">加入我们</a></li>
+              <li  class="active"><a href="<?php echo U('Index/index');?>">首页</a></li>
+            <li><a href="<?php echo U('Index/scda');?>">关于我们</a></li>
+              <li class="has-sub"><a href="<?php echo U('Index/form');?>">加入我们</a></li>
                     <!--
 		         	<li class="has-sub"><a href="service.html">注册</a></li>
 		         	<li class="has-sub"><a href="contact.html">登录</a></li>

@@ -23,9 +23,9 @@
 	    </div>
             <div class="cssmenu">
             	<ul>
-		   			<li><a href="/SCDA/index.php/Index/index">首页</a></li>
-		    		<li class="active"><a href="/SCDA/index.php/Index/scda">关于我们</a></li>
-		         	<li class="has-sub"><a href="/SCDA/index.php/Index/form">加入我们</a></li>
+                    <li><a href="<?php echo U('Index/index');?>">首页</a></li>
+                    <li class="active"><a href="<?php echo U('Index/scda');?>">关于我们</a></li>
+                    <li class="has-sub"><a href="<?php echo U('Index/form');?>">加入我们</a></li>
                     <!--
 		         	<li class="has-sub"><a href="service.html">注册</a></li>
 		         	<li class="has-sub"><a href="contact.html">登录</a></li>
@@ -75,72 +75,72 @@
     
     
 	<div class="box_2">
-		<div class="row">
-    		<div class="box_2_9">
-				<a href="/SCDA/index.php/Index/xuanchuan">
-        			<img src="__PUBLIC__/images/xuanchuan.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>宣传部</h3>
-                	</div>
-                </a>
-        	</div>
+        <div class="row">
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/bangong">
-        			<img src="__PUBLIC__/images/bangongshi.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>办公室</h3>
-                	</div>
+                <a href="<?php echo U('Index/xuanchuan');?>">
+                    <img src="__PUBLIC__/images/xuanchuan.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>宣传部</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/jiangzuo">
-        			<img src="__PUBLIC__/images/jiangzuo.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>讲座交流部</h3>
-                	</div>
+                <a href="<?php echo U('Index/bangong');?>">
+                    <img src="__PUBLIC__/images/bangongshi.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>办公室</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/zhigui">
-        			<img src="__PUBLIC__/images/zhigui.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>职业规划部</h3>
-                	</div>
+                <a href="<?php echo U('Index/jiangzuo');?>">
+                    <img src="__PUBLIC__/images/jiangzuo.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>讲座交流部</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/chuanmei">
-        			<img src="__PUBLIC__/images/chuanmei.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>传媒部</h3>
-                	</div>
+                <a href="<?php echo U('Index/zhigui');?>">
+                    <img src="__PUBLIC__/images/zhigui.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>职业规划部</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/zhuchi">
-        			<img src="__PUBLIC__/images/zuchi.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>主持组</h3>
-                	</div>
+                <a href="<?php echo U('Index/chuanmei');?>">
+                    <img src="__PUBLIC__/images/chuanmei.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>传媒部</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/peixun">
-        			<img src="__PUBLIC__/images/peixun.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>培训组</h3>
-                	</div>
+                <a href="<?php echo U('Index/zhuchi');?>">
+                    <img src="__PUBLIC__/images/zuchi.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>主持组</h3>
+                    </div>
                 </a>
-        	</div>
+            </div>
             <div class="box_2_9">
-				<a href="/SCDA/index.php/Index/gongguan">
-        			<img src="__PUBLIC__/images/gongguan.jpg" alt="">
-                	<div class="carousel-caption">
-                    	<h3>市场公关部</h3>
-                	</div>
+                <a href="<?php echo U('Index/peixun');?>">
+                    <img src="__PUBLIC__/images/peixun.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>培训组</h3>
+                    </div>
                 </a>
-        	</div>
-    	</div>
+            </div>
+            <div class="box_2_9">
+                <a href="<?php echo U('Index/gongguan');?>">
+                    <img src="__PUBLIC__/images/gongguan.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>市场公关部</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
