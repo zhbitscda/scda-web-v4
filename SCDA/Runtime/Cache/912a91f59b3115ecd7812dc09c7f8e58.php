@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -34,9 +34,9 @@ var _hmt = _hmt || [];
 	    	</div>
             <div class="cssmenu">
             	<ul>
-                    <li class="active"><a href="{:U('Index/index')}">首页</a></li>
-                    <li><a href="{:U('Index/scda')}">关于我们</a></li>
-                    <li class="has-sub"><a href="{:U('Index/form')}">加入我们</a></li>
+                    <li class="active"><a href="<?php echo U('Index/index');?>">首页</a></li>
+                    <li><a href="<?php echo U('Index/scda');?>">关于我们</a></li>
+                    <li class="has-sub"><a href="<?php echo U('Index/form');?>">加入我们</a></li>
                     <!--
 		         	<li class="has-sub"><a href="service.html">注册</a></li>
 		         	<li class="has-sub"><a href="contact.html">登录</a></li>
@@ -109,7 +109,7 @@ var _hmt = _hmt || [];
         </div>
     	<div class="row" style="margin-top:5px">
     		<div class="col-md-4">
-            	<a href="{:U('Index/bangong')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/bangong');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/bangongshi.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>办公室</h3>
@@ -127,7 +127,7 @@ var _hmt = _hmt || [];
                 </a>
         	</div>  
         	<div class="col-md-4">
-            	<a href="{:U('Index/xuanchuan')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/xuanchuan');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/xuanchuan.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>宣传部</h3>
@@ -145,7 +145,7 @@ var _hmt = _hmt || [];
                 </a>
         	</div>  
         	<div class="col-md-4">
-            	<a href="{:U('Index/zhigui')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/zhigui');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/zhigui.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>职业规划部</h3>
@@ -165,7 +165,7 @@ var _hmt = _hmt || [];
        </div>
        <div class="row">
     		<div class="col-md-4">
-            	<a href="{:U('Index/jiangzuo')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/jiangzuo');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/jiangzuo.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>讲座交流部</h3>
@@ -183,7 +183,7 @@ var _hmt = _hmt || [];
                 </a>
         	</div>  
         	<div class="col-md-4">
-            	<a href="{:U('Index/scda')}"  class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/scda');?>"  class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/zhixie.jpg" alt="">
                 	<div class="carousel-caption">
                     	<img src="__PUBLIC__/images/LOGO.png" alt="">
@@ -196,7 +196,7 @@ var _hmt = _hmt || [];
                </a>
         	</div>
         	<div class="col-md-4">
-            	<a href="{:U('Index/gongguan')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/gongguan');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/gongguan.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>市场公关部</h3>
@@ -216,7 +216,7 @@ var _hmt = _hmt || [];
        </div>
        <div class="row">
     		<div class="col-md-4">
-            	<a href="{:U('Index/chuanmei')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/chuanmei');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/chuanmei.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>传媒部</h3>
@@ -234,7 +234,7 @@ var _hmt = _hmt || [];
                 </a>
         	</div>  
         	<div class="col-md-4">
-            	<a href="{:U('Index/zhuchi')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/zhuchi');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/zuchi.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>主持组</h3>
@@ -252,7 +252,7 @@ var _hmt = _hmt || [];
                 </a>
         	</div>  
         	<div class="col-md-4">
-            	<a href="{:U('Index/peixun')}" class="b-link-stripe b-animate-go swipebox">
+            	<a href="<?php echo U('Index/peixun');?>" class="b-link-stripe b-animate-go swipebox">
         			<img src="__PUBLIC__/images/peixun.jpg" alt="">
                 	<div class="carousel-caption">
                     	<h3>培训组</h3>
@@ -279,51 +279,51 @@ var _hmt = _hmt || [];
     </div>
 	<div class="row">
 	   <div class="col-md-4">
-            <a href="{:U('Index/bangong')}">
+            <a href="<?php echo U('Index/bangong');?>">
             	办公室
         	</a>
         </div>
          <div class="col-md-4">
-            <a href="{:U('Index/xuanchuan')}">
+            <a href="<?php echo U('Index/xuanchuan');?>">
             	宣传部
         	</a>
         </div>
          <div class="col-md-4">
-            <a href="{:U('Index/zhigui')}">
+            <a href="<?php echo U('Index/zhigui');?>">
             	职业规划部
         	</a>
         </div>
     </div>
    <div class="row">
     	<div class="col-md-4">
-            <a href="{:U('Index/jiangzuo')}">
+            <a href="<?php echo U('Index/jiangzuo');?>">
             	讲座交流部
         	</a>
         </div>
         <div class="col-md-4">
-            <a class="sp_a" href="{:U('Index/scda')}">
+            <a class="sp_a" href="<?php echo U('Index/scda');?>">
             	<img src="__PUBLIC__/images/sjlg.png" alt="" onmouseover="this.src='__PUBLIC__/images/sjlg2.png'" onmouseout="this.src='__PUBLIC__/images/sjlg.png'">
         	</a>
         </div>
          <div class="col-md-4">
-            <a href="{:U('Index/gongguan')}">
+            <a href="<?php echo U('Index/gongguan');?>">
             	市场公关部
         	</a>
         </div>
     </div>
      <div class="row">
     	<div class="col-md-4">
-            <a href="{:U('Index/chuanmei')}">
+            <a href="<?php echo U('Index/chuanmei');?>">
             	传媒部
         	</a>
         </div>
         <div class="col-md-4">
-            <a href="{:U('Index/zhuchi')}">
+            <a href="<?php echo U('Index/zhuchi');?>">
             	主持组
         	</a>
         </div>
          <div class="col-md-4">
-            <a href="{:U('Index/peixun')}">
+            <a href="<?php echo U('Index/peixun');?>">
             	培训组
         	</a>
         </div>
@@ -421,7 +421,7 @@ var _hmt = _hmt || [];
 <div class="entry-form">
 		<div class="move_bg">
         	<h4>加入我们 :)</h4>
-			<a href="{:U('Index/form')}">
+			<a href="<?php echo U('Index/form');?>">
                 点击加入我们
         	</a>
             <a name="form" style="width:0px;height:0px;"></a>
@@ -429,7 +429,7 @@ var _hmt = _hmt || [];
         
        <div class="mini_move_bg">
         	<h4>加入我们 :)</h4>
-			<a href="{:U('Index/form')}" >
+			<a href="<?php echo U('Index/form');?>" >
                 点击加入我们
         	</a>
             <a name="form" style="width:0px;height:0px;"></a>
@@ -452,55 +452,55 @@ var _hmt = _hmt || [];
             	<div class="rowwidth row">
   					<div class="col-md-4">
         					<font>姓名</font>
-      						<input type="text" class="form-control" id="userName" name='sname' value={$data.sname}>
+      						<input type="text" class="form-control" id="userName" name='sname' value=<?php echo ($data["sname"]); ?>>
   					</div>
   					<div class="col-md-3">
         					<font>性别</font>
-      						<input type="text" class="form-control" id="sex" name='sex' placeholder="" value={$data.sex}>
+      						<input type="text" class="form-control" id="sex" name='sex' placeholder="" value=<?php echo ($data["sex"]); ?>>
   					</div>
                     <div class="col-md-5">
         					<font>出生年月</font>
-      						<input type="text" class="form-control" id="birth" name='birth' placeholder="" value={$data.birth}>
+      						<input type="text" class="form-control" id="birth" name='birth' placeholder="" value=<?php echo ($data["birth"]); ?>>
   					</div>
 				</div>
               	<div class="rowwidth row">
   					<div class="col-md-4">
         					<font>籍贯</font>
-      						<input type="text" class="form-control" id="hometown" name='hometown' placeholder="" value={$data.hometown}>
+      						<input type="text" class="form-control" id="hometown" name='hometown' placeholder="" value=<?php echo ($data["hometown"]); ?>>
   					</div>
   					<div class="col-md-3">
         					<font>民族</font>
-      						<input type="text" class="form-control" id="nation" name='nation' placeholder="" value={$data.nation}>
+      						<input type="text" class="form-control" id="nation" name='nation' placeholder="" value=<?php echo ($data["nation"]); ?>>
   					</div>
                     <div class="col-md-5">
                     	<div class="col-5_font_sty">
         					<font>宿舍</font>
                         </div>
-      						<input type="text" class="form-control" id="dormitory" name='dormitory' placeholder="" value={$data.dormitory}>
+      						<input type="text" class="form-control" id="dormitory" name='dormitory' placeholder="" value=<?php echo ($data["dormitory"]); ?>>
   					</div>
 				</div>
                 <div class="rowwidth row">
   					<div class="col-md-7">
         					<font>学院</font>
-      						<input type="text" class="form-control" id="academy" name='academy' placeholder="" value={$data.academy}>
+      						<input type="text" class="form-control" id="academy" name='academy' placeholder="" value=<?php echo ($data["academy"]); ?>>
   					</div>
                     <div class="col-md-5">
                     	<div class="col-5_font_sty">
         					<font>专业</font>
                         </div>
-      						<input type="text" class="form-control" id="profession" name='profession' placeholder="" value={$data.profession}>
+      						<input type="text" class="form-control" id="profession" name='profession' placeholder="" value=<?php echo ($data["profession"]); ?>>
   					</div>
 				</div>
                 <div class="rowwidth row">
   					<div class="col-md-7 col-7_other">
         					<font>长号/短号</font>
-      						<input type="text" class="form-control" id="phonenumber" name='phonenumber' placeholder="" value={$data.phonenumber}>
+      						<input type="text" class="form-control" id="phonenumber" name='phonenumber' placeholder="" value=<?php echo ($data["phonenumber"]); ?>>
   					</div>
                     <div class="col-md-5">
                     <div class="col-5_font_sty">
         					<font>QQ</font>
                     </div>
-      						<input type="text" class="form-control" id="qq" name='qq' placeholder="" value={$data.qq}>
+      						<input type="text" class="form-control" id="qq" name='qq' placeholder="" value=<?php echo ($data["qq"]); ?>>
   					</div>
 				</div>
                 <div class="rowwidth row">
@@ -508,7 +508,7 @@ var _hmt = _hmt || [];
         					<font>应聘部门</font>
                             <fieldset>
 							<div class="select_box">
-                            <select tabindex="4" class="dropdown" id="development1" name='development1' value={$data.development1}>
+                            <select tabindex="4" class="dropdown" id="development1" name='development1' value=<?php echo ($data["development1"]); ?>>
                                 <option value="" class="label"></option>
                                 <option value="办公室">办公室</option>
             					<option value="传媒部">传媒部</option>
@@ -520,7 +520,7 @@ var _hmt = _hmt || [];
                             </select>
                             </div>
                             <div class="select_box">
-                            <select tabindex="4" class="dropdown" id="development2" name='development2' value={$data.development2}>
+                            <select tabindex="4" class="dropdown" id="development2" name='development2' value=<?php echo ($data["development2"]); ?>>
                                 <option value="" class="label"></option>
                                 <option value="办公室">办公室</option>
             					<option value="传媒部">传媒部</option>
@@ -539,7 +539,7 @@ var _hmt = _hmt || [];
         					<font>服从调剂</font>
       						<fieldset>
 							
-                            <select tabindex="4" class="dropdown" id="STSwap"  name='STSwap' value={$data.STSwap}>
+                            <select tabindex="4" class="dropdown" id="STSwap"  name='STSwap' value=<?php echo ($data["STSwap"]); ?>>
                                 <option value="" class="label"></option>
                                 <option value="1">是</option>
             					<option value="1">否</option>
@@ -553,7 +553,7 @@ var _hmt = _hmt || [];
                     	<div class="col-12_font_sty">
         					<font>特长</font>
                         </div>
-      					<input type="text" class="form-control" id="hobby" name='hobby' value={$data.hobby}>
+      					<input type="text" class="form-control" id="hobby" name='hobby' value=<?php echo ($data["hobby"]); ?>>
   					</div>
 				</div>
                 <div class="rowwidth row">
@@ -567,7 +567,7 @@ var _hmt = _hmt || [];
                             <font>经历</font>
                             </div>
                         </div>
-      					<textarea type="text" class="form-control" id="introduction" name='introduction' value={$data.introduction}></textarea>
+      					<textarea type="text" class="form-control" id="introduction" name='introduction' value=<?php echo ($data["introduction"]); ?>></textarea>
   					</div>
 				</div>
                 <div class="rowwidth row">
